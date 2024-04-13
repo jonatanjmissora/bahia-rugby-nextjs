@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { api } from '../../api';
 import ThumbUpSvg from '../../UI/SVG/ThumbUpSvg.js';
-import type { Jugador } from '../../api';
+import type { Jugador } from '../..utils/jugadoresMock';
 export default async function InfoPage({
   params: { categoriaName },
 }: {
